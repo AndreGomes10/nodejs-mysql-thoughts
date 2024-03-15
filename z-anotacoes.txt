@@ -1,0 +1,21 @@
+npm init -y
+
+npm install bcryptjs connect-flash cookie-parser cookie-session express express-flash express-session express-handlebars mysql2 sequelize nodemon session-file-store
+
+O
+- bcryptjs = ele vai gerar a senha pra gente entao ele criptografar e também conseguir descriptografar a senha pra gente
+- connect-flash = pra flash message
+- cookie-parser cookie-session = pra conseguir manter uma sessão da maquina do cliente pra poder ficar conectado e o 
+    programa entender que o usuario esta logado
+- express-session = pra ter uma autenticação mais simples no express
+- nodemon = trabalhar com o servidor sem precisar reiniciar
+- session-file-store = pra poder salvar as sessões em arquivo e conseguir mantelas para poder persistir a autenticação do usuario
+
+packge.json
+    "start": "nodemon ./index.js localhost 3000"
+
+
+Bootstrap icons
+    https://icons.getbootstrap.com/#install
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
